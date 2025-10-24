@@ -1,5 +1,6 @@
 .{
-    .name = "freetype",
+    .name = .freetype,
+    .fingerprint = 0xac2059b6e905cb61,
     .version = "0.0.0",
     .paths = .{
         "include",
@@ -13,8 +14,8 @@
     },
     .dependencies = .{
         .brotli = .{
-            .url = "https://pkg.machengine.org/brotli/31ec33e2629f814c3830d3fdac066b5128adf5f1.tar.gz",
-            .hash = "1220c4923c2f4e9d6d2285bf897f325ed519bf85c6c4ceadfbd5b01e9f89e401dc7c",
+            .url = "https://github.com/pfgithub/brotli/archive/970bd99bb6aececbff07c8fa68c9bc9b6c219a00.tar.gz",
+            .hash = "N-V-__8AAPsyIgBasY6ejf12dIK4rp_3lQMbvnHXf1Pcc15j",
             .lazy = true,
         },
     },
